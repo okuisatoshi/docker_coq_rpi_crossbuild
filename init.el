@@ -20,4 +20,4 @@
 ;;(setq coq-compile-before-require t)
 
 (setq coq-prog-args
-        (cons "-R" (cons "/root/.opam/4.04.0/lib/coq/user-contrib/mathcomp" (cons "mathcomp" (cons "-emacs" nil)))))
+        (cons "-R" (cons "/home/opam/.opam/4.04.0/lib/coq/user-contrib/mathcomp" (cons "mathcomp" (cons "-emacs" nil)))))
