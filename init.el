@@ -1,7 +1,7 @@
-(require 'mozc)
-(set-language-environment "Japanese")
-(setq default-input-method "japanese-mozc")
-(prefer-coding-system 'utf-8)
+;;(require 'mozc)
+;;(set-language-environment "Japanese")
+;;(setq default-input-method "japanese-mozc")
+;;(prefer-coding-system 'utf-8)
 
 (defadvice coq-mode-config
     (after deactivate-holes-mode () activate)
@@ -14,8 +14,8 @@
 	     )
 	  )
 
-(setq coq-load-path-include-current t)
-;;(setq proof-splash-enable nil)
+;;(setq coq-load-path-include-current t)
+(setq proof-splash-enable nil)
 ;;(setq proof-three-window-mode-policy 'hybrid)
 ;;(setq coq-compile-before-require t)
 
