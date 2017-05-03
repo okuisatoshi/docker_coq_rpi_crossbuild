@@ -1,0 +1,5 @@
+#!/usr/bin/qemu-arm-static /bin/sh
+
+sudo mv /bin/sh /bin/sh.real
+sudo cp /usr/bin/sh-shim /bin/sh
+
